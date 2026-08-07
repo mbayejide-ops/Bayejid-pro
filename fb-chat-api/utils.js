@@ -920,36 +920,57 @@ function getAdminTextMessageType(type) {
   }
 }
 
-function formatDeltaEvent(m) {
-  let logMessageType;
-  let logMessageData;
+function formatDeltaMessage(m) {
+  const md = m.delta.messageMetadata || {};
+  const delta = m.delta || {};
 
-  // log:thread-color => {theme_color}
-  // log:user-nickname => {participant_id, nickname}
-  // log:thread-icon => {thread_icon}
-  // log:thread-name => {name}
-  // log:subscribe => {addedParticipants - [Array]}
-  // log:unsubscribe => {leftParticipantFbId}
+  let mentions = {};
 
-  switch (m.class) {
-    case "AdminTextMessage":
-      logMessageData = m.untypedData;
-      logMessageType = getAdminTextMessageType(m.type);
-      break;
-    case "ThreadName":
-      logMessageType = "log:thread-name";
-      logMessageData = { name: m.name };
-      break;
-    case "ParticipantsAddedToGroupThread":
-      logMessageType = "log:subscribe";
-      logMessageData = { addedParticipants: m.addedParticipants };
-      break;
-    case "ParticipantLeftGroupThread":
-      logMessageType = "log:unsubscribe";
-      logMessageData = { leftParticipantFbId: m.leftParticipantFbId };
-      break;
-    case "ApprovalQueue":
-      logMessageType = "log:approval-queue";
+  try {
+    if (delta.data && delta.data.prng) {
+      const prng = JSON.parse(delta.data.prng);
+
+      if (Array.isArray(prng) && typeof delta.body === "string") {
+        for (const item of prng) {
+          if (
+            item &&
+            item.i != null &&
+            typeof item.o === "number" &&
+            typeof item.l === "number"
+          ) {
+            mentions[item.i.toString()] = delta.body.substring(
+              item.o,
+              item.o + item.l
+            );
+          }
+        }
+      }
+    }
+  } catch (e) {
+    mentions = {};
+  }
+
+  return {
+    type: "message",
+    senderID: formatID((md.actorFbId || "").toString()),
+    body: delta.body || "",
+    threadID: formatID(
+      (
+        (md.threadKey && (md.threadKey.threadFbId || md.threadKey.otherUserFbId)) ||
+        ""
+      ).toString()
+    ),
+    messageID: md.messageId,
+    attachments: Array.isArray(delta.attachments)
+      ? delta.attachments.map(v => _formatAttachment(v))
+      : [],
+    mentions,
+    timestamp: md.timestamp,
+    isGroup: !!(md.threadKey && md.threadKey.threadFbId),
+    participantIDs: delta.participants || [],
+    messageReply: delta.repliedToMessage || null
+  };
+}
       logMessageData = {
         approvalQueue: {
           action: m.action,
