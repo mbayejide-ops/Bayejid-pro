@@ -265,7 +265,7 @@ function parseDelta(defaultFuncs, api, ctx, globalCallback, v) {
 			if (i == (v.delta.attachments || []).length) {
 				let fmtMsg;
 				try {
-					fmtMsg = utils.formatDeltaMessage(v);
+				console.log("DELTA_DATA_DEBUG:", JSON.stringify(v.delta.data));	fmtMsg = utils.formatDeltaMessage(v);
 				} catch (err) {
 					return globalCallback({
 						error: "Problem parsing message object. Please open an issue at https://github.com/ntkhang03/fb-chat-api/issues.",
