@@ -14,7 +14,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1821093722.723173,
+        "expirationDate": 1821161990.200477,
         "hostOnly": false,
         "httpOnly": true,
         "name": "datr",
@@ -27,7 +27,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1794326549.965081,
+        "expirationDate": 1794378043.080356,
         "hostOnly": false,
         "httpOnly": true,
         "name": "fr",
@@ -36,11 +36,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "1DgUZK67dydYQOrbY.AWeIvoDUC6L-jxaydKmG2NPel3clyOl5-Is2D4qF19y18Y7BnR0.BqdX0h..AAA.0.0.BqfJkW.AWfvZm4xHNOGQauYjwrjaBx2_NM"
+        "value": "1DgUZK67dydYQOrbY.AWcgUhEIuiYyVoloSXrHQod3bHhWcXyOqinTYn0Pio7G7th4oSU.BqdX0h..AAA.0.0.BqfWI7.AWc1ugSt14W3nHr6DmrQvjOctek"
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1791734614,
+        "expirationDate": 1791786056,
         "hostOnly": false,
         "httpOnly": false,
         "name": "vpd",
@@ -53,7 +53,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1818069943.669114,
+        "expirationDate": 1818138028.793115,
         "hostOnly": false,
         "httpOnly": true,
         "name": "xs",
@@ -62,11 +62,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "19%3A-RpUVc8BRsdO_A%3A2%3A1786533941%3A-1%3A-1"
+        "value": "48%3A1KiQMoQYA5xtnA%3A2%3A1786602027%3A-1%3A-1"
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1818086614,
+        "expirationDate": 1818138056,
         "hostOnly": false,
         "httpOnly": false,
         "name": "fbl_st",
@@ -75,7 +75,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "101730238%3BT%3A29775843"
+        "value": "101621082%3BT%3A29776700"
     },
     {
         "domain": ".facebook.com",
@@ -92,7 +92,19 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1818069943.667631,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "m_pixel_ratio",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "2.75"
+    },
+    {
+        "domain": ".facebook.com",
+        "expirationDate": 1818138028.789921,
         "hostOnly": false,
         "httpOnly": false,
         "name": "c_user",
@@ -101,7 +113,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "61591670173799"
+        "value": "61593368602618"
     },
     {
         "domain": ".facebook.com",
@@ -118,7 +130,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1821110612.869833,
+        "expirationDate": 1821162043.081069,
         "hostOnly": false,
         "httpOnly": true,
         "name": "pas",
@@ -144,7 +156,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1821093943.668706,
+        "expirationDate": 1821162028.792526,
         "hostOnly": false,
         "httpOnly": true,
         "name": "sb",
@@ -157,20 +169,19 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1787155403,
         "hostOnly": false,
         "httpOnly": false,
         "name": "wd",
         "path": "/",
-        "sameSite": "lax",
+        "sameSite": null,
         "secure": true,
-        "session": false,
+        "session": true,
         "storeId": null,
-        "value": "392x730"
+        "value": "393x895"
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1794326614,
+        "expirationDate": 1794378043,
         "hostOnly": false,
         "httpOnly": false,
         "name": "wl_cbv",
@@ -179,6 +190,6 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "v2%3Bclient_version%3A3247%3Btimestamp%3A1786550613"
+        "value": "v2%3Bclient_version%3A3247%3Btimestamp%3A1786602043"
     }
 ]
