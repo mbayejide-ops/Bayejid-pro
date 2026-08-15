@@ -14,7 +14,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1821161990.200477,
+        "expirationDate": 1821348600.838012,
         "hostOnly": false,
         "httpOnly": true,
         "name": "datr",
@@ -27,7 +27,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1794482141.241348,
+        "expirationDate": 1794587664.400076,
         "hostOnly": false,
         "httpOnly": true,
         "name": "fr",
@@ -36,11 +36,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "1DgUZK67dydYQOrbY.AWcTA5-zZ_DWduNJBKsN7mEc9FvpbSpaZOUEmogSivj4WYiyzZU.BqdX0h..AAA.0.0.Bqfvjd.AWd-vg3q0b5dghJsXesaU5ggILw"
+        "value": "1DgUZK67dydYQOrbY.AWcoxakgRU6ZEsE31EiZx0Yb6XaxEuwP9BF5-o8x1WSXrsFZPm4.BqdX0h..AAA.0.0.BqgJUQ.AWduCXkI-UGRyIFc3kyTg8EyG4Q"
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1791890141,
+        "expirationDate": 1791995665,
         "hostOnly": false,
         "httpOnly": false,
         "name": "vpd",
@@ -53,7 +53,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1818242140.832911,
+        "expirationDate": 1818347624.415669,
         "hostOnly": false,
         "httpOnly": true,
         "name": "xs",
@@ -62,11 +62,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "30%3A2TWKJ39LfVc_iQ%3A2%3A1786706139%3A-1%3A-1"
+        "value": "11%3AiTncLaCYBA1gog%3A2%3A1786811622%3A-1%3A-1"
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1818242141,
+        "expirationDate": 1818347665,
         "hostOnly": false,
         "httpOnly": false,
         "name": "fbl_st",
@@ -75,7 +75,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "100626771%3BT%3A29778435"
+        "value": "100632721%3BT%3A29780194"
     },
     {
         "domain": ".facebook.com",
@@ -92,19 +92,7 @@
     },
     {
         "domain": ".facebook.com",
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "m_pixel_ratio",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": true,
-        "storeId": null,
-        "value": "2.75"
-    },
-    {
-        "domain": ".facebook.com",
-        "expirationDate": 1818242140.832102,
+        "expirationDate": 1818347624.412671,
         "hostOnly": false,
         "httpOnly": false,
         "name": "c_user",
@@ -113,11 +101,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "61593368602618"
+        "value": "61591670173799"
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1787155412,
+        "expirationDate": 1787416250,
         "hostOnly": false,
         "httpOnly": false,
         "name": "dpr",
@@ -130,7 +118,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1821266141.241738,
+        "expirationDate": 1821371664.400407,
         "hostOnly": false,
         "httpOnly": true,
         "name": "pas",
@@ -156,7 +144,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1821266140.832749,
+        "expirationDate": 1821371624.4146,
         "hostOnly": false,
         "httpOnly": true,
         "name": "sb",
@@ -169,19 +157,7 @@
     },
     {
         "domain": ".facebook.com",
-        "hostOnly": false,
-        "httpOnly": false,
-        "name": "wd",
-        "path": "/",
-        "sameSite": null,
-        "secure": true,
-        "session": true,
-        "storeId": null,
-        "value": "393x895"
-    },
-    {
-        "domain": ".facebook.com",
-        "expirationDate": 1794482147,
+        "expirationDate": 1794587665,
         "hostOnly": false,
         "httpOnly": false,
         "name": "wl_cbv",
@@ -190,6 +166,6 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "v2%3Bclient_version%3A3248%3Btimestamp%3A1786706141"
+        "value": "v2%3Bclient_version%3A3249%3Btimestamp%3A1786811664"
     }
 ]
