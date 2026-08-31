@@ -18,14 +18,14 @@
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": ["61592822127821"],
+	"adminBot": ["61593110717514"],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": []
 	},
 	"whiteListModeThread": {
 		"enable": false,
-		"whiteListThreadIds": ["61592822127821","7898494176933427","29972797222365949","9870658263027223","6542391465853509","9577576372322277"]
+		"whiteListThreadIds": ["61593110717514","7898494176933427","29972797222365949","9870658263027223","6542391465853509","9577576372322277"]
 	},
 	"database": {
 		"type": "mongodb",
