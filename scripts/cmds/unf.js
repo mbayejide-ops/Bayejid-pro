@@ -39,7 +39,7 @@ module.exports = {
       } catch (e) {
         failed++;
       }
-      await sleep(2000); // rate limit / ban ragate delay
+      await sleep(200); // rate limit / ban ragate delay
     }
 
     return message.reply(`✅ Sesh!\nUnfriend: ${done}\nFailed: ${failed}`);
